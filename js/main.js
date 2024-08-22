@@ -37,6 +37,18 @@
     hideDistantElements: false,
     scrollProperty: 'scroll'
   });
+  if (!isMobile.any()) {
+    $(window).stellar({
+        responsive: true,
+        parallaxBackgrounds: true,
+        parallaxElements: true,
+        horizontalScrolling: false,
+        hideDistantElements: false,
+        scrollProperty: 'scroll'
+    });
+}
+
+
 
 
 	var fullHeight = function() {
