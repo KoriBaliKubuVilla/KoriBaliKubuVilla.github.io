@@ -7588,7 +7588,15 @@ padding-left: 0;
         .owl-carousel.home-slider .slider-item {
           background-position: center center !important; } }
       .owl-carousel.home-slider .slider-item .overlay {
-        display: none; }
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #000000;
+        opacity: .2;
+        z-index: 1;
+        pointer-events: none; }
       .owl-carousel.home-slider .slider-item .slider-text {
         height: 900px;
         position: relative; }
